@@ -352,22 +352,3 @@ footer button.show {
     color: #fff;
     background: #007bff;
 }
-/* Media query for mobile */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-    body {
-        background-color: #6CB4EE;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    /* Modified styles for mobile */
-    .start_btn button {
-        font-size: 20px;
-        padding: 10px 20px;
-    }
-    
-    .info_box,
-    .quiz_box,
-    .result_box {
-        width: 100%;
-    }
