@@ -1,6 +1,17 @@
 # Quiz App
 
 Welcome to the Quiz App, developed for the Mid Semester course at Newton School.
+# Scan Me for Quiz
+
+<p align="center">
+  <a href="https://quiz-app-x.vercel.app/">![image (2)](https://github.com/Adi-gitX/Quiz-appX/assets/159440749/e66abaac-e62f-4ec0-85ca-f30aac9b928e)
+
+    <img src="images/your_image.jpg" alt="Scan Me for Quiz">
+  </a>
+</p>
+
+[Link to Quiz App](https://quiz-app-x.vercel.app/)
+
 
 ## Current Features
 - **Multiple Choice Questions:** Engaging questions to test your knowledge.
