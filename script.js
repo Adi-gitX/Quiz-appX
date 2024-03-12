@@ -119,9 +119,9 @@ function showResult() {
     if (userScore > 3) {
         scoreTag = `<span>and congrats! , You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
     } else if (userScore > 1) {
-        scoreTag = `<span>and nice , You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
+        scoreTag = `<span>and nice 😎 , You got <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
     } else {
-        scoreTag = `<span>and sorry , You got only <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
+        scoreTag = `<span>and sorry 😐, You got only <p>${userScore}</p> out of <p>${questions.length}</p></span>`;
     }
     scoreText.innerHTML = scoreTag;
 }
@@ -131,14 +131,4 @@ function queCounter(index) {
     let totalQueCountTag = `<span><p>${index}</p> of <p>${questions.length}</p> Questions</span>`;
     bottomQuesCounter.innerHTML = totalQueCountTag;
 }
-// Function to display an alert
-function showAlert(message) {
-    alert(message);
-}
-// Add poppers animation
-const poppers = resultBox.querySelectorAll(".icon");
-poppers.forEach((popper, index) => {
-    setTimeout(() => {
-        popper.classList.add("pop");
-    }, index * 100);
-});
+
