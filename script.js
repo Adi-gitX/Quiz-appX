@@ -49,9 +49,6 @@ quitQuiz.addEventListener("click", () => {
 // Event listener for the next button
 const nextBtn = document.querySelector("footer .next_btn");
 const bottomQuesCounter = document.querySelector("footer .total_que");
-const previousBtn = document.querySelector("footer .previous_btn");
-const bottomQuesCounter = document.querySelector("footer .total_que");
-
 
 nextBtn.addEventListener("click", () => {
     if (queCount < questions.length - 1) {
@@ -64,14 +61,6 @@ nextBtn.addEventListener("click", () => {
         showResult();
     }
 });
-previousBtn.addEventListner("click",() =>{
-    if (queCount <0){
-        queCount--;
-        queNum--:
-        showQuestions(queCount);
-        previousBtn.classlist.remove("show");
-        
-}
 
 // Function to display the questions and options
 function showQuestions(index) {
@@ -141,5 +130,3 @@ function showResult() {
 function queCounter(index) {
     let totalQueCountTag = `<span><p>${index}</p> of <p>${questions.length}</p> Questions</span>`;
     bottomQuesCounter.innerHTML = totalQueCountTag;
-}
-
