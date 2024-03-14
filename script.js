@@ -64,7 +64,7 @@ nextBtn.addEventListener("click", () => {
 
 // Function to display the questions and options
 function showQuestions(index) {
-    const queText = document.querySelector(".questions_list");
+    const queText = document.querySelector(".que_text");
     let queTag = `<span>${questions[index].numb}. ${questions[index].question}</span>`;
     let optionTag = "";
     for (let i = 0; i < questions[index].options.length; i++) {
@@ -130,5 +130,4 @@ function showResult() {
 function queCounter(index) {
     let totalQueCountTag = `<span><p>${index}</p> of <p>${questions.length}</p> Questions</span>`;
     bottomQuesCounter.innerHTML = totalQueCountTag;
-}    
-    
+}
