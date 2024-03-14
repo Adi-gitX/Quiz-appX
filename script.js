@@ -130,3 +130,5 @@ function showResult() {
 function queCounter(index) {
     let totalQueCountTag = `<span><p>${index}</p> of <p>${questions.length}</p> Questions</span>`;
     bottomQuesCounter.innerHTML = totalQueCountTag;
+}    
+    
